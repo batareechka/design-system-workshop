@@ -1,0 +1,44 @@
+:root {
+    --font-family-generic: "Roboto", sans-serif;
+    --font-family-cheaptickets: "Khand", sans-serif;
+    --font-family-budgetair: "Nunito", sans-serif;
+}
+
+.title-1 {
+    font-weight: 700;
+    font-size: 44px;
+    font-family: var(--font-family-budgetair);
+    line-height: 1;
+}
+
+.title-2 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: var(--font-family-budgetair);
+    line-height: 48px;
+}
+
+.title-3 {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: var(--font-family-budgetair);
+    line-height: 0.92;
+}
+
+.body-large {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.body-small {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.57;
+}
+
+.body-tiny {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.34;
+}

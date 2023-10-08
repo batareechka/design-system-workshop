@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--font-family-generic);
+    line-height: 24px;
+}
+
+button {
+    font-family: inherit;
+}

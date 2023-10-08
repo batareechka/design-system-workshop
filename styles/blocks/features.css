@@ -1,0 +1,19 @@
+.features {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    width: 100%;
+    margin: 24px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.features__item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.features__icon {
+    fill: var(--success);
+}

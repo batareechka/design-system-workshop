@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Colors in Design Systems</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Khand:wght@700&family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/index.css" />
+    </head>
+    <body>
+        <header class="header wrapper">
+            <a href="">
+                <img
+                    src="/images/BudgetAir_co_uk_logo.svg"
+                    alt="BudgetAir"
+                    width="201"
+                    height="56"
+                />
+            </a>
+            <div class="header__controls">
+                <button class="language-switcher">
+                    <svg
+                        class="language-switcher__leading-icon"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M16.1 3.9a8.63 8.63 0 100 12.2 8.62 8.62 0 000-12.2zm-.36 11a7.94 7.94 0 00-1.29-.95 13.89 13.89 0 00.55-3.4h2.54a7.42 7.42 0 01-1.8 4.32zM2.49 10.55H5a13.89 13.89 0 00.52 3.37 7.94 7.94 0 00-1.29.95 7.42 7.42 0 01-1.74-4.32zm1.77-5.42a7.94 7.94 0 001.29 1A13.89 13.89 0 005 9.45H2.49a7.42 7.42 0 011.77-4.32zM9.45 6.2a7.66 7.66 0 01-2.56-.65c.46-1.2 1.32-2.64 2.56-3zm0 1.1v2.15H6.13a13.5 13.5 0 01.41-2.85 8.8 8.8 0 002.91.7zm0 3.25v2.15a8.8 8.8 0 00-2.91.7 13.5 13.5 0 01-.41-2.85zm0 3.25v3.65c-1.24-.36-2.1-1.8-2.56-3a7.66 7.66 0 012.56-.65zm1.1 0a7.66 7.66 0 012.56.65c-.46 1.2-1.32 2.64-2.56 3zm0-1.1v-2.15h3.32a13.5 13.5 0 01-.41 2.85 8.8 8.8 0 00-2.91-.7zm0-3.25V7.3a8.8 8.8 0 002.91-.7 13.5 13.5 0 01.41 2.85zm0-3.25V2.55c1.24.36 2.1 1.8 2.56 3a7.66 7.66 0 01-2.56.65zM13 3.1a7.58 7.58 0 012 1.24 7.14 7.14 0 01-.89.67A8.31 8.31 0 0013 3.1zM5.92 5A7.14 7.14 0 015 4.34 7.58 7.58 0 017 3.1 8.31 8.31 0 005.92 5zm0 10A8.31 8.31 0 007 16.9a7.58 7.58 0 01-2-1.24 7.14 7.14 0 01.92-.66zm8.16 0a7.14 7.14 0 01.89.67 7.58 7.58 0 01-2 1.24A8.31 8.31 0 0014.08 15zM15 9.45a13.89 13.89 0 00-.52-3.37 7.94 7.94 0 001.29-1 7.42 7.42 0 011.77 4.32z"
+                        />
+                    </svg>
+                    English
+                    <svg
+                        class="language-switcher__trailing-icon"
+                        viewBox="0 0 9 11"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        stroke-linejoin="round"
+                        stroke-miterlimit="1.414"
+                    >
+                        <path d="M.996.071V10.93l8.002-5.407L.996.072z" />
+                    </svg>
+                </button>
+                <a class="nav-link" href="">Service & Contact</a>
+                <button class="nav-button" type="button">
+                    <svg
+                        class="nav-button__icon"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            d="M3.78 10C2.8 10 2 10.8 2 11.78v6.44C2 19.2 2.8 20 3.78 20h12.44c.98 0 1.78-.8 1.78-1.78v-6.44c0-.98-.8-1.78-1.78-1.78H3.78zM6 4c0 2.21 1.79 4 4 4s4-1.79 4-4-1.79-4-4-4-4 1.79-4 4z"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                    My Account
+                </button>
+            </div>
+        </header>
+        <main>
+            <div class="banner">
+                <div class="banner__inner wrapper">
+                    <p class="banner__text">Looking for great deals? ✈️</p>
+                    <a class="button button--primary" href="">Read more</a>
+                    <button class="button button--secondary">Close</button>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="hero__inner">
+                    <div class="hero__top">
+                        <p class="hero__tagline title-3">
+                            Exciting adventure with a few clicks!
+                        </p>
+                        <p class="hero__title title-1">Great flight deals</p>
+                        <p>
+                            <span class="body-small">from</span>
+                            <span class="body-large">£67</span>
+                            <button aria-label="Info" hidden>
+                                <svg viewBox="0 0 20 20">
+                                    <path
+                                        d="M7.778 8.889v8.889H5.556V20h8.888v-2.222h-2.222V6.667H5.556v2.222h2.222zm0-8.889v4.444h4.444V0H7.778z"
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                    />
+                                </svg>
+                            </button>
+                        </p>
+                    </div>
+                    <div class="hero__bottom">
+                        <p class="hero__tiny body-tiny">
+                            *Prices exclude the £4.99 booking fee.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-widget wrapper">
+                <div class="main-widget__header">
+                    <button class="main-widget__tab main-widget__tab--current">
+                        <svg
+                            class="main-widget__tab-icon"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                        >
+                            <path
+                                d="M1.432 10.495L0 5.263h1.432l2.852 3.158H10L5.716 0h1.431l7.137 8.421h2.863S20 8.58 20 10s-2.853 1.579-2.853 1.579h-2.863L7.147 20H5.716L10 11.579H4.284l-2.852 3.158H0l1.432-4.242z"
+                            />
+                        </svg>
+                        Flights
+                    </button>
+                    <button class="main-widget__tab">
+                        <svg
+                            class="main-widget__tab-icon"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                        >
+                            <defs>
+                                <path
+                                    id="i122a"
+                                    d="M2.9 7.684a1.783 1.783 0 01-1.087-1.197L.724 2.51h1.328l2.646 2.929H10L7.655 0h1.328l4.991 5.438h2.656s2.646.146 2.646 1.465-2.646 1.464-2.646 1.464H5.026c-.217 0-.432-.04-.634-.116l-1.493-.567z"
+                                />
+                            </defs>
+                            <use
+                                xlink:href="#i122a"
+                                overflow="visible"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                            />
+                            <path
+                                d="M5.768 15.64c1.128 0 2.038-.911 2.038-2.04s-.91-2.038-2.038-2.038-2.039.91-2.039 2.039.91 2.038 2.039 2.038zm10.135-4.046H9.115v4.889H2.41v-4.921H.724V20h1.687v-2.066h15.178V20h1.687v-5.033a3.372 3.372 0 00-3.373-3.373z"
+                            />
+                        </svg>
+                        Flight & Hotel
+                    </button>
+                    <button class="main-widget__tab">
+                        <svg
+                            class="main-widget__tab-icon"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                        >
+                            <path
+                                d="M6.797 12.31c1.52 0 2.747-1.228 2.747-2.748S8.317 6.815 6.797 6.815 4.049 8.042 4.049 9.562s1.227 2.747 2.748 2.747zm13.657-5.452h-9.147v6.587H2.273v-6.63H0v11.37h2.273v-2.783h20.454v2.783H25v-6.782a4.544 4.544 0 00-4.546-4.545z"
+                            />
+                        </svg>
+                        Hotels
+                    </button>
+                    <button class="main-widget__tab">
+                        <svg
+                            class="main-widget__tab-icon"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                        >
+                            <path
+                                d="M19.553 7.587c-.166-.312-.57-.902-.828-1.144-.522-.488-1.276-1.287-1.531-1.953l-.488-1.277C16.45 2.546 15.658 2 14.944 2H5.102c-.714 0-1.511.544-1.772 1.209l-.498 1.279c-.261.665-1.02 1.46-1.542 1.946-.262.243-.673.839-.841 1.153C.11 8.217 0 8.974 0 9.69v7.012C0 17.415.585 18 1.299 18h1.07c.713 0 1.298-.439 1.298-.975s.585-.975 1.3-.975h10.066c.714 0 1.3.439 1.3.975s.584.975 1.298.975h1.07c.714 0 1.299-.585 1.299-1.298V9.69c0-.716-.111-1.473-.447-2.103zM3.73 5.799l.817-2.14h11.066l.674 2.116c.217.681-.191 1.237-.906 1.237H4.565c-.715 0-1.09-.545-.836-1.213zm1.461 6.4c0 .718-.581 1.299-1.298 1.299H2.775a1.298 1.298 0 01-1.299-1.299v-1.01c0-.718.581-1.299 1.3-1.299h1.116c.717 0 1.298.581 1.298 1.299v1.01zm7.403 3.032H7.407v-1.127h5.186v1.127zM18.38 12.2c0 .718-.582 1.299-1.3 1.299h-1.115c-.718 0-1.3-.581-1.3-1.299v-1.01c0-.718.582-1.299 1.3-1.299h1.116c.717 0 1.299.581 1.299 1.299v1.01z"
+                            />
+                        </svg>
+                        Car rental
+                    </button>
+                    <button class="main-widget__tab">
+                        <svg
+                            class="main-widget__tab-icon"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                        >
+                            <path
+                                d="M17.78 2a.22.22 0 01.22.22v15.56a.22.22 0 01-.22.22H2.22a.22.22 0 01-.22-.22V2.22A.22.22 0 012.22 2h15.56m0-2H2.22A2.22 2.22 0 000 2.22v15.56A2.22 2.22 0 002.22 20h15.56A2.22 2.22 0 0020 17.78V2.22A2.22 2.22 0 0017.78 0zM5 11.954h.784l1.574-1.636H10.5L8.142 15h.784l3.932-4.682h1.568S16 10.277 16 9.5s-1.574-.818-1.574-.818h-1.568L8.926 4h-.784L10.5 8.682H7.358L5.784 7.046H5l.784 2.729L5 11.955z"
+                            />
+                        </svg>
+                        Transfers
+                    </button>
+                </div>
+                <div class="main-widget__panel">
+                    <div class="main-widget__categories"></div>
+                    <div class="main-widget__full"></div>
+                    <div class="main-widget__two">
+                        <div class="main-widget__half"></div>
+                        <div class="main-widget__form">
+                            <div class="main-widget__input">
+                                <svg
+                                    class="main-widget__input-icon"
+                                    fill="currentColor"
+                                    viewBox="0 0 20 20"
+                                >
+                                    <path
+                                        d="M3.78 10C2.8 10 2 10.8 2 11.78v6.44C2 19.2 2.8 20 3.78 20h12.44c.98 0 1.78-.8 1.78-1.78v-6.44c0-.98-.8-1.78-1.78-1.78H3.78zM6 4c0 2.21 1.79 4 4 4s4-1.79 4-4-1.79-4-4-4-4 1.79-4 4z"
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                    />
+                                </svg>
+                                1 passenger, Economy
+                            </div>
+                            <button class="cta cta--budgetair" type="button">
+                                <span class="cta__icon">
+                                    <svg
+                                        viewBox="0 0 20 20"
+                                        width="20"
+                                        height="20"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M12.168 15.105L16.316 20l2.631-2.632-3.842-4.536a7.807 7.807 0 001.737-4.937C16.842 3.537 13.305 0 8.947 0S1.053 3.537 1.053 7.895s3.536 7.894 7.894 7.894a7.816 7.816 0 003.221-.684zM8.948 3.158c2.61 0 4.736 2.126 4.736 4.737s-2.126 4.736-4.737 4.736-4.736-2.126-4.736-4.736 2.126-4.737 4.736-4.737z"
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="cta__label">Search</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="features wrapper">
+                <li class="features__item">
+                    <svg class="features__icon" width="20" height="20" viewBox="0 0 20 20"><defs><path id="i217a" d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0zm4.095 5.449l-5.208 5.297L6.729 8.61a1.504 1.504 0 00-2.123.01l-.006.005a1.492 1.492 0 00.006 2.108L8.886 15l7.35-7.457a1.492 1.492 0 00-.003-2.1 1.504 1.504 0 00-2.138.006z"/></defs><use fill-rule="evenodd" xlink:href="#i217a"/></svg>
+                    Compare 800+ Airlines
+                </li>
+                <li class="features__item">
+                    <svg class="features__icon" width="20" height="20" viewBox="0 0 20 20"><defs><path id="i217a" d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0zm4.095 5.449l-5.208 5.297L6.729 8.61a1.504 1.504 0 00-2.123.01l-.006.005a1.492 1.492 0 00.006 2.108L8.886 15l7.35-7.457a1.492 1.492 0 00-.003-2.1 1.504 1.504 0 00-2.138.006z"/></defs><use fill-rule="evenodd" xlink:href="#i217a"/></svg>
+                    100% safe and secure booking
+                </li>
+                <li class="features__item">
+                    <svg class="features__icon" width="20" height="20" viewBox="0 0 20 20"><defs><path id="i217a" d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0zm4.095 5.449l-5.208 5.297L6.729 8.61a1.504 1.504 0 00-2.123.01l-.006.005a1.492 1.492 0 00.006 2.108L8.886 15l7.35-7.457a1.492 1.492 0 00-.003-2.1 1.504 1.504 0 00-2.138.006z"/></defs><use fill-rule="evenodd" xlink:href="#i217a"/></svg>
+                    English customer service
+                </li>
+            </ul>
+
+            <footer class="wrapper">
+                <br><br>
+                <button class="cta cta--budgetair" type="button">
+                    <span class="cta__icon">
+                        <svg
+                            viewBox="0 0 20 20"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                        >
+                            <path
+                                d="M12.168 15.105L16.316 20l2.631-2.632-3.842-4.536a7.807 7.807 0 001.737-4.937C16.842 3.537 13.305 0 8.947 0S1.053 3.537 1.053 7.895s3.536 7.894 7.894 7.894a7.816 7.816 0 003.221-.684zM8.948 3.158c2.61 0 4.736 2.126 4.736 4.737s-2.126 4.736-4.737 4.736-4.736-2.126-4.736-4.736 2.126-4.737 4.736-4.737z"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                            />
+                        </svg>
+                    </span>
+                    <span class="cta__label">Search</span>
+                </button>
+                <button class="cta cta--cheaptickets" type="button">
+                    <span class="cta__icon">
+                        <svg
+                            viewBox="0 0 20 20"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                        >
+                            <path
+                                d="M12.168 15.105L16.316 20l2.631-2.632-3.842-4.536a7.807 7.807 0 001.737-4.937C16.842 3.537 13.305 0 8.947 0S1.053 3.537 1.053 7.895s3.536 7.894 7.894 7.894a7.816 7.816 0 003.221-.684zM8.948 3.158c2.61 0 4.736 2.126 4.736 4.737s-2.126 4.736-4.737 4.736-4.736-2.126-4.736-4.736 2.126-4.737 4.736-4.737z"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                            />
+                        </svg>
+                    </span>
+                    <span class="cta__label">Search</span>
+                </button>
+            </div>
+        </main>
+    </body>
+</html>

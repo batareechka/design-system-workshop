@@ -1,0 +1,14 @@
+@import "design-system/colors.css";
+@import "design-system/typography.css";
+@import "base.css";
+@import "blocks/banner.css";
+@import "blocks/button.css";
+@import "blocks/cta.css";
+@import "blocks/features.css";
+@import "blocks/language-switcher.css";
+@import "blocks/main-widget.css";
+@import "blocks/nav-link.css";
+@import "blocks/nav-button.css";
+@import "blocks/header.css";
+@import "blocks/hero.css";
+@import "blocks/wrapper.css";

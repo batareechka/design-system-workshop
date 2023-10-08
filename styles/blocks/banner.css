@@ -1,0 +1,16 @@
+.banner {
+    padding: 16px 0;
+    color: var(--white);
+    background-color: var(--brand);
+}
+
+.banner__inner {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.banner__text {
+    flex-grow: 1;
+    margin: 0;
+}
