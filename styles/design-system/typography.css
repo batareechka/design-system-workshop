@@ -1,44 +1,146 @@
 :root {
     --font-family-generic: "Roboto", sans-serif;
-    --font-family-cheaptickets: "Khand", sans-serif;
-    --font-family-budgetair: "Nunito", sans-serif;
+
+    --theme-font-family: var(--font-family-accent);
+
+    --font-weight-bold: 700;
+    --font-weight-default: 400;
+
+    --font-title-1-size: 45px;
+    --font-title-1-line-height: 56px;
+    --font-title-2-size: 32px;
+    --font-title-2-line-height: 40px;
+    --font-title-3-size: 24px;
+    --font-title-3-line-height: 0.92;
+
+    --font-body-size-large: 1.25rem;
+    --font-body-line-height-large: 2rem;
+    --font-body-size: 1rem;
+    --font-body-line-height: 1.5rem;
+    --font-body-size-small: 0.75rem;
+    --font-body-line-height-small: 1.25rem;
 }
 
 .title-1 {
-    font-weight: 700;
-    font-size: 44px;
-    font-family: var(--font-family-budgetair);
-    line-height: 1;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-title-1-size);
+    font-family: var(--theme-font-family);
+    line-height: var(--font-title-1-line-height);
 }
 
 .title-2 {
     font-weight: 700;
-    font-size: 32px;
-    font-family: var(--font-family-budgetair);
-    line-height: 48px;
+    font-size: var(--font-title-2-size);
+    font-family: var(--theme-font-family);
+    line-height: var(--font-title-2-line-height);
 }
 
 .title-3 {
     font-weight: 600;
-    font-size: 24px;
-    font-family: var(--font-family-budgetair);
-    line-height: 0.92;
+    font-size: var(--font-title-3-size);
+    font-family: var(--theme-font-family);
+    line-height: var(--font-title-2-line-height);
 }
 
-.body-large {
+.title-4 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.title-5 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.title-6 {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.body-text-large {
     font-weight: 400;
     font-size: 30px;
     line-height: 1;
 }
 
-.body-small {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.57;
+.body-text-large-bold {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1;
 }
 
+.body-text {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.body-text-bold {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.body-small {
+    font-weight: 400;
+    font-size: var(--font-body-size-small);
+    line-height: var(--font-body-line-height-small);
+}
+
+.body-small-bold {
+    font-weight: 700;
+    font-size: var(--font-body-size-small);
+    line-height: var(--font-body-line-height-small);
+}
+
+.price-xl {
+    font-weight: 700;
+    font-size: 2.25rem;
+    font-family: var(--theme-font-family);
+    line-height: 2.5rem;
+}
+
+.price-l {
+    font-weight: 700;
+    font-size: 1.75rem;
+    font-family: var(--theme-font-family);
+    line-height: 2rem;
+}
+
+.price-m {
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--theme-font-family);
+    line-height: 1.5rem;
+}
+
+.price-s {
+    font-weight: 700;
+    font-size: 1.125rem;
+    font-family: var(--theme-font-family);
+    line-height: 1.5rem;
+}
+
+.cents-large {
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: var(--theme-font-family);
+    line-height: 1rem;
+}
+
+.cents {
+    font-weight: 700;
+    font-size: 0.75rem;
+    font-family: var(--theme-font-family);
+    line-height: 1rem;
+}
+
+/* not in the DS */
 .body-tiny {
     font-weight: 400;
-    font-size: 12px;
+    font-size: var(--font-body-size-small);
     line-height: 1.34;
 }

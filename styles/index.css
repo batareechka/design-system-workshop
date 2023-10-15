@@ -1,3 +1,4 @@
+@import "design-system/_palette.css";
 @import "design-system/colors.css";
 @import "design-system/typography.css";
 @import "base.css";
@@ -11,4 +12,12 @@
 @import "blocks/nav-button.css";
 @import "blocks/header.css";
 @import "blocks/hero.css";
+@import "blocks/ui-card.css";
+@import "blocks/ui-cta.css";
 @import "blocks/wrapper.css";
+
+/* THEMES */
+@import "design-system/themes/budgetair.css";
+@import "design-system/themes/cheaptickets.css";
+
+/* END THEMES */

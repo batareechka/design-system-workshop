@@ -1,0 +1,54 @@
+.ui-cta {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-weight: 600;
+    font-family: var(--font-family-generic);
+    background-color: var(--accent);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ui-cta--large {
+    padding: 8px 16px;
+    font-size: 24px;
+    font-family: var(--font-family-cheaptickets);
+    line-height: 32px;
+}
+
+.ui-cta--medium {
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ui-cta--small {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* fix tokens */
+
+.ui-cta--accent {
+    --white: #003f7f;
+    --accent: #ffe93e;
+}
+
+.ui-cta--basic {
+    --white: #003f7f;
+    --accent: #fff;
+}
+
+.ui-cta--primary {
+    --white: #fff;
+    --accent: #005fbb;
+}
+
+.ui-cta--secondary {
+    --white: #003f7f;
+    --accent: #bdd8f1;
+}

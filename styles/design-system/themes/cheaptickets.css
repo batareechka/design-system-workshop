@@ -1,0 +1,18 @@
+.cheaptickets:root {
+    --brand-100: #bdd8f1;
+    --brand-200: #adc9ea;
+    --brand-300: #7ea6d4;
+    --brand-500: #006cd2;
+    --brand-600: #005fbb;
+    --brand-700: #0056a9;
+    --brand-800: #004b94;
+    --brand-900: #003f7f;
+    --accent-50: #fffbd2;
+    --accent-100: #faf18f;
+    --accent-300: #ffee65;
+    --accent-600: #ffe93e;
+    --accent-700: #f8d230;
+    --accent-800: #e6bb00;
+
+    --font-family-accent: "Khand", sans-serif;
+}

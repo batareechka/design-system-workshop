@@ -1,0 +1,18 @@
+:root {
+    --brand-100: #ece1ef;
+    --brand-200: #d1bcdc;
+    --brand-300: #b293c4;
+    --brand-500: #9057a3;
+    --brand-600: #7b4797;
+    --brand-700: #72368d;
+    --brand-800: #602a7b;
+    --brand-900: #51216b;
+    --accent-50: #dcf88c;
+    --accent-100: #c1e35e;
+    --accent-300: #c1e35e;
+    --accent-600: #9aca0f;
+    --accent-700: #49a345;
+    --accent-800: #358231;
+
+    --font-family-accent: "Nunito", sans-serif;
+}

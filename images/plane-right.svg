@@ -1,0 +1,8 @@
+<svg fill="none" viewBox="0 0 20 20">
+  <mask id="a" width="19" height="19" x="1" y="1" maskUnits="userSpaceOnUse" style="mask-type:luminance">
+    <path fill="#fff" fill-rule="evenodd" d="M2.36 10.97 1 6h1.36l2.71 3h5.43L6.43 1h1.36l6.78 8h2.72S20 9.15 20 10.5 17.29 12 17.29 12h-2.72l-6.78 8H6.43l4.07-8H5.07l-2.71 3H1l1.36-4.03Z" clip-rule="evenodd"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill="#ADC9EA" d="M0 0h20v20H0z"/>
+  </g>
+</svg>
