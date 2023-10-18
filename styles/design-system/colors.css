@@ -9,11 +9,11 @@
 
     /* BASIC */
     --color-background: var(--ui-white);
-    --color-text-primary: var(--dark);
+    --color-text-primary: var(--neutral-900);
     --color-text-secondary: var(--neutral-400);
-    --color-text-icon-secondary: var(--brand-200);
+    --color-text-icon-primary-success: var(--success-500);
+    --color-text-icon-secondary-info: var(--brand-200);
 
-    --color-background-dark: var(--ui-white);
     --color-text-primary-on-dark: var(--ui-white);
 
     /* CTA */

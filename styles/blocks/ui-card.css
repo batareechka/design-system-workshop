@@ -1,8 +1,8 @@
 .ui-card {
-    border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 4px #05182129;
     background-color: var(--color-background);
+    border-radius: 4px;
+    box-shadow: 0 4px #05182129;
 }
 
 .ui-card__header {
@@ -13,8 +13,8 @@
     position: absolute;
     bottom: 0;
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
+    justify-content: space-between;
     width: 100%;
     padding: 4px 12px;
     color: var(--color-text-primary-on-dark);
@@ -33,8 +33,8 @@
 
 .ui-card__title {
     display: block;
-    font-family: var(--theme-font-family);
     font-size: var(--font-title-1-size);
+    font-family: var(--theme-font-family);
     line-height: var(--font-title-1-line-height);
 }
 
@@ -44,19 +44,19 @@
 }
 
 .ui-card__price::after {
-    content: "";
     position: absolute;
-    left: 0;
     right: 0;
     bottom: 0;
+    left: 0;
     border: 4px solid var(--theme-color-accent);
+    content: "";
 }
 
 .ui-card__price-text {
     display: block;
-    text-align: right;
     font-size: var(--font-body-size-small);
     line-height: 1;
+    text-align: right;
 }
 
 .ui-card__currency {
@@ -70,21 +70,21 @@
 
 .ui-card__row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 0.5rem;
 }
 
 .ui-card__row-left {
     display: flex;
-    align-items: center;
     gap: 0.5rem;
+    align-items: center;
 }
 
 .ui-card__icon {
     width: 1em;
     height: 1em;
-    color: var(--color-text-icon-secondary);
+    color: var(--color-text-icon-secondary-info);
 }
 
 .ui-card__secondary-text {

@@ -1,9 +1,10 @@
 .ui-cta {
     display: inline-flex;
-    gap: 8px;
     flex-direction: row-reverse;
+    gap: 8px;
     align-items: center;
     justify-content: center;
+    width: max-content; /* fix for displaying in ui-kit */
     color: var(--color-cta-text);
     font-weight: var(--font-weight-semibold);
     font-family: var(--font-family-generic);
@@ -11,7 +12,6 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: max-content; /* fix for displaying in ui-kit */
 }
 
 .ui-cta--large {

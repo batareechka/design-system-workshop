@@ -15,5 +15,5 @@
 }
 
 .features__icon {
-    fill: var(--success);
+    fill: var(--color-text-icon-primary-success);
 }
