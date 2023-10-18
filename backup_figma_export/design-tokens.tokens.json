@@ -1930,7 +1930,7 @@
   "tokens": {
     "color": {
       "text": {
-        "text-primary": {
+        "primary": {
           "type": "color",
           "value": "{primitives.budgetair.color.dark.900}",
           "extensions": {
@@ -1946,7 +1946,7 @@
             }
           }
         },
-        "text-secondary": {
+        "secondary": {
           "type": "color",
           "value": "{primitives.budgetair.color.dark.400}",
           "extensions": {
@@ -1962,9 +1962,9 @@
             }
           }
         },
-        "text-icon-secondary-info": {
+        "icon-primary-brand": {
           "type": "color",
-          "value": "{primitives.budgetair.color.brand.primary.200}",
+          "value": "{primitives.budgetair.color.brand.primary.800}",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
               "mode": "Mode 1",
@@ -1978,7 +1978,7 @@
             }
           }
         },
-        "text-primary-on-dark": {
+        "primary-on-dark": {
           "type": "color",
           "value": "{primitives.budgetair.color.other.white}",
           "extensions": {
@@ -1994,7 +1994,7 @@
             }
           }
         },
-        "text-icon-primary-success": {
+        "icon-primary-success": {
           "type": "color",
           "value": "{primitives.budgetair.color.green.500}",
           "extensions": {
@@ -2009,10 +2009,42 @@
               "exportKey": "variables"
             }
           }
+        },
+        "primary-brand": {
+          "type": "color",
+          "value": "{primitives.budgetair.color.brand.primary.800}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES",
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:712:19909",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "icon-secondary-brand 2": {
+          "type": "color",
+          "value": "{primitives.budgetair.color.brand.primary.200}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES",
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:714:19911",
+              "exportKey": "variables"
+            }
+          }
         }
       },
       "background": {
-        "background": {
+        "base": {
           "type": "color",
           "value": "{primitives.budgetair.color.other.white}",
           "extensions": {
@@ -2027,21 +2059,55 @@
               "exportKey": "variables"
             }
           }
+        },
+        "brand": {
+          "type": "color",
+          "value": "{primitives.budgetair.color.brand.primary.800}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES",
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:711:19906",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "brand-light": {
+          "type": "color",
+          "value": "{primitives.budgetair.color.brand.primary.600}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES",
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:711:19907",
+              "exportKey": "variables"
+            }
+          }
         }
       },
-      "color-border-accent": {
-        "type": "color",
-        "value": "{primitives.budgetair.color.brand.accent.600}",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "mode": "Mode 1",
-            "collection": "Tokens",
-            "scopes": [
-              "ALL_SCOPES",
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:701:18173",
-            "exportKey": "variables"
+      "border": {
+        "accent": {
+          "type": "color",
+          "value": "{primitives.budgetair.color.brand.accent.600}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES",
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:713:19910",
+              "exportKey": "variables"
+            }
           }
         }
       }

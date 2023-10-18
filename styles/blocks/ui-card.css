@@ -1,6 +1,6 @@
 .ui-card {
     overflow: hidden;
-    background-color: var(--color-background);
+    background-color: var(--tokens-color-background-base);
     border-radius: 4px;
     box-shadow: 0 4px #05182129;
 }
@@ -17,7 +17,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 4px 12px;
-    color: var(--color-text-primary-on-dark);
+    color: var(--tokens-color-text-primary-on-dark);
 }
 
 .ui-card__heading {
@@ -48,7 +48,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    border: 4px solid var(--theme-color-accent);
+    border: 4px solid var(--tokens-color-border-accent);
     content: "";
 }
 
@@ -84,10 +84,10 @@
 .ui-card__icon {
     width: 1em;
     height: 1em;
-    color: var(--color-text-icon-secondary-info);
+    color: var(--tokens-color-text-icon-secondary-brand);
 }
 
 .ui-card__secondary-text {
     padding-left: calc(12px + 0.5rem);
-    color: var(--color-text-secondary);
+    color: var(--tokens-color-text-secondary);
 }

@@ -2,7 +2,7 @@
     display: flex;
     gap: 8px;
     align-items: center;
-    color: var(--theme-color-brand);
+    color: var(--tokens-color-text-primary-brand);
     font-size: 14px;
     background-color: transparent;
     border: none;

@@ -1,6 +1,10 @@
-@import "design-system/_palette.css";
-@import "design-system/colors.css";
+/* stylelint-disable at-rule-empty-line-before */
+@import "../build/css/_variables.css";
+
+/*@import "design-system/_palette.css";*/
+/*@import "design-system/colors.css";*/
 @import "design-system/typography.css";
+
 @import "base.css";
 @import "blocks/banner.css";
 @import "blocks/button.css";

@@ -11,12 +11,12 @@ html {
 body {
     height: 100%;
     margin: 0;
-    color: var(--color-text-primary);
+    color: var(--tokens-color-text-primary);
     font-weight: 400;
     font-size: 16px;
     font-family: var(--font-family-generic);
     line-height: 24px;
-    background-color: var(--color-background);
+    background-color: var(--tokens-color-background-base);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -35,7 +35,7 @@ img {
     grid-template-columns: repeat(4, max-content);
     gap: 32px 16px;
     padding: 32px;
-    background-color: var(--neutral-900);
+    background-color: var(--tokens-color-background-dark);
 }
 
 .cards-grid {

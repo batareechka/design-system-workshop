@@ -4,11 +4,12 @@
     "description": "",
     "main": "index.html",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "tokens:build": "style-dictionary build"
     },
     "author": "Anastasiia Batarei",
     "license": "ISC",
     "devDependencies": {
+        "style-dictionary": "^3.8.0",
         "stylelint": "^15.10.3",
         "stylelint-config-rational-order": "^0.1.2",
         "stylelint-config-standard": "^34.0.0"
