@@ -1,11 +1,24 @@
+/* stylelint-disable custom-property-empty-line-before */
+
 :root {
-    --color-background: var(--white);
+    /* THEME BASE, PRIMITIVES */
+    --theme-color-brand: var(--brand-800);
+    --theme-color-brand-light: var(--brand-600);
+    --theme-color-brand-lighter: var(--brand-500); /* make a note why this token should be different */
+    --theme-color-accent: var(--accent-600);
+
+    /* BASIC */
+    --color-background: var(--ui-white);
     --color-text-primary: var(--dark);
-    --color-text-primary-on-dark: var(--white);
     --color-text-secondary: var(--neutral-400);
-    /* TODO: Refactor */
-    --brand: var(--brand-800);
-    --brand-light: var(--brand-600);
-    --brand-lighter: var(--brand-500);
-    --accent: var(--accent-600);
+    --color-text-icon-secondary: var(--brand-200);
+
+    --color-background-dark: var(--ui-white);
+    --color-text-primary-on-dark: var(--ui-white);
+
+    /* CTA */
+    --color-cta-text: var(--ui-white);
+    --color-cta-background: var(--theme-color-accent);
+    --color-cta-text-accent: var(--ui-white); /* a subject to change */
+    --color-cta-background-accent: var(--theme-color-accent); /* a subject to change */
 }

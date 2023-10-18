@@ -1,7 +1,7 @@
 .banner {
     padding: 16px 0;
-    color: var(--white);
-    background-color: var(--brand);
+    color: var(--color-text-primary-on-dark);
+    background-color: var(--theme-color-brand);
 }
 
 .banner__inner {

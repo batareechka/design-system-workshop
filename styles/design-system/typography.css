@@ -1,9 +1,11 @@
+/* stylelint-disable custom-property-empty-line-before */
+
 :root {
+    --theme-font-family: var(--font-family-accent);
     --font-family-generic: "Roboto", sans-serif;
 
-    --theme-font-family: var(--font-family-accent);
-
     --font-weight-bold: 700;
+    --font-weight-semibold: 600;
     --font-weight-default: 400;
 
     --font-title-1-size: 45px;
@@ -36,7 +38,7 @@
 }
 
 .title-3 {
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     font-size: var(--font-title-3-size);
     font-family: var(--theme-font-family);
     line-height: var(--font-title-2-line-height);

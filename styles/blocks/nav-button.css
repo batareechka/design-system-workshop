@@ -2,7 +2,7 @@
     display: flex;
     gap: 8px;
     padding: 8px 16px;
-    color: var(--brand);
+    color: var(--theme-color-brand);
     font-weight: 500;
     font-size: 14px;
     white-space: nowrap;
@@ -13,8 +13,8 @@
 }
 
 .nav-button:hover {
-    color: var(--white);
-    background-color: var(--brand);
+    color: var(--ui-white);
+    background-color: var(--theme-color-brand);
 }
 
 .nav-button__icon {

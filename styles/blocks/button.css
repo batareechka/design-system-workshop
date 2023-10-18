@@ -9,12 +9,12 @@
 }
 
 .button--primary {
-    color: var(--brand);
-    background-color: var(--white);
-    border-color: var(--white);
+    color: var(--theme-color-brand);
+    background-color: var(--ui-white);
+    border-color: var(--ui-white);
 }
 
 .button--secondary {
-    color: var(--white);
+    color: var(--ui-white);
     background-color: transparent;
 }

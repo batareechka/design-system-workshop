@@ -1,8 +1,12 @@
+/* stylelint-disable custom-property-empty-line-before */
+
 :root {
     --dark: #414141;
     --white: #fff;
     --success: #00b250;
-    --ui-light-blue: #00b0ff;
+
+    --ui-aquablue: #00b0ff;
+    --ui-white: #fff;
 
     --neutral-400: #8C94A2;
 }

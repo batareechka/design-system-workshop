@@ -1,80 +1,82 @@
 .cta {
-    display: inline-flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    min-height: 48px;
-    padding: 8px 24px;
-    line-height: 1.2;
-    border: none;
-    cursor: pointer;
-    transition: filter 0.2s ease-out 0s, transform;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 48px;
+  padding: 8px 24px;
+  line-height: 1.2;
+  border: none;
+  cursor: pointer;
+  transition: filter 0.2s ease-out 0s, transform;
 }
 
 .cta__icon {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    pointer-events: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  pointer-events: none;
 }
 
 .cta__icon svg {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .cta:focus:not([disabled]),
 .cta:hover:not([disabled]) {
-    transform: translateY(-2px);
-    filter: brightness(1.03);
+  transform: translateY(-2px);
+  filter: brightness(1.03);
 }
 
 .cta:active:not(:disabled) {
-    transform: translateY(1px);
-    filter: brightness(0.97);
-    transition: all 0s ease 0s;
+  transform: translateY(1px);
+  filter: brightness(0.97);
+  transition: all 0s ease 0s;
 }
 
 .cta--budgetair {
-    color: rgb(252, 253, 249);
-    font-weight: 600;
-    font-size: 22px;
-    font-family: var(--font-family-budgetair);
-    text-shadow: rgb(73, 163, 69) 0 2px 0;
-    background-image: linear-gradient(rgb(154, 202, 15), rgb(115, 184, 40));
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0,
-        rgb(73, 163, 69) 0 -3px 0 0 inset;
+  --theme-font-family: "Nunito", sans-serif;
+
+  color: rgb(252, 253, 249);
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Nunito", sans-serif;
+  text-shadow: rgb(73, 163, 69) 0 2px 0;
+  background-image: linear-gradient(rgb(154, 202, 15), rgb(115, 184, 40));
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0,
+  rgb(73, 163, 69) 0 -3px 0 0 inset;
 }
 
 .cta--budgetair:focus:not([disabled]),
 .cta--budgetair:hover:not([disabled]) {
-    background-color: rgb(154, 202, 15); /* #9aca0f */
+  background-color: rgb(154, 202, 15); /* #9aca0f */
 }
 
 .cta--budgetair:active:not(:disabled) {
-    background-color: rgb(115, 184, 40);
-    box-shadow: rgb(73, 163, 69) 0 -1px 0 0 inset;
+  background-color: rgb(115, 184, 40);
+  box-shadow: rgb(73, 163, 69) 0 -1px 0 0 inset;
 }
 
 .cta--cheaptickets {
-    color: rgb(0, 63, 127);
-    font-weight: 700;
-    font-size: 24px;
-    font-family: var(--font-family-cheaptickets);
-    text-shadow: none;
-    background-image: linear-gradient(rgb(255, 242, 62), rgb(247, 222, 0));
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0,
-        rgb(230, 187, 0) 0 -3px 0 0 inset;
+  color: rgb(0, 63, 127);
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Khand", sans-serif;;
+  text-shadow: none;
+  background-image: linear-gradient(rgb(255, 242, 62), rgb(247, 222, 0));
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0,
+  rgb(230, 187, 0) 0 -3px 0 0 inset;
 }
 
 .cta--cheaptickets:focus:not([disabled]),
 .cta--cheaptickets:hover:not([disabled]) {
-    background-color: rgb(255, 242, 62); /* #fff23e */
+  background-color: rgb(255, 242, 62); /* #fff23e */
 }
 
 .cta--cheaptickets:active:not(:disabled) {
-    background-color: rgb(247, 222, 0);
-    box-shadow: rgb(230, 187, 0) 0 -1px 0 0 inset;
+  background-color: rgb(247, 222, 0);
+  box-shadow: rgb(230, 187, 0) 0 -1px 0 0 inset;
 }
